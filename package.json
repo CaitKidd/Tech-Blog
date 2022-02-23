@@ -1,0 +1,43 @@
+{
+    "name": "tech-blog",
+    "version": "1.0.0",
+    "description": "A MVC Tech Blog for developers",
+    "main": "server.js",
+    "scripts": {
+        "test": "jest",
+        "start": "node server.js",
+        "watch": "nodemon server.js",
+        "seed": "node seeds/index.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/CaitKidd/Tech-Blog.git"
+    },
+    "author": "Priya Ravi",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/CaitKidd/Tech-Blog/issues"
+    },
+    "homepage": "https://github.com/CaitKidd/Tech-Blog#readme",
+    "dependencies": {
+        "bcrypt": "^5.0.0",
+        "bulma": "^0.9.0",
+        "connect-session-sequelize": "^6.1.1",
+        "dotenv": "^8.2.0",
+        "express": "^4.17.1",
+        "express-handlebars": "^4.0.6",
+        "express-session": "^1.17.1",
+        "ibm_db": "^2.8.1",
+        "mariadb": "^2.5.6",
+        "mysql2": "^2.3.3",
+        "nodemon": "^2.0.4",
+        "pg": "^8.7.3",
+        "pg-hstore": "^2.3.4",
+        "sequelize": "^5.22.5",
+        "sqlite3": "^5.0.2"
+    },
+    "devDependencies": {
+        "@creativebulma/bulma-divider": "^1.1.0",
+        "jest": "^26.0.1"
+    }
+}
