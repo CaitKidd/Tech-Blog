@@ -1,14 +1,14 @@
 [
     {
-      "name": "",
-      "post_content": ""
+      "name": "HR",
+      "post_content": "I love coding"
     },
     {
-        "name": "Sup",
-        "post_content": "How are you doing?!"
+        "name": "Dwight",
+        "post_content": "SQL Rocks!"
     },
     {
-        "name": "",
-        "post_content": ""
+        "name": "Bob",
+        "post_content": "MVC is interesting"
     }
 ]
