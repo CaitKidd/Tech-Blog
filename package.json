@@ -1,5 +1,5 @@
 {
-  "name": "tech-blog",
+  "name": "techblog",
   "version": "1.0.0",
   "description": "MVC Tech Blog",
   "main": "server.js",
@@ -13,7 +13,6 @@
   },
   "keywords": [
     "MVC"
-   
   ],
   "author": "CaitKidd",
   "license": "ISC",
@@ -28,7 +27,8 @@
     "express": "^4.17.1",
     "express-handlebars": "^5.2.1",
     "express-session": "^1.17.1",
-    "mysql2": "^2.2.5",
-    "sequelize": "^6.5.0"
-  }
+    "mysql2": "^2.3.3",
+    "sequelize": "^6.17.0"
+  },
+  "devDependencies": {}
 }
